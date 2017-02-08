@@ -59,6 +59,7 @@
     <Compile Include="Enum\TypeOperators.cs" />
     <Compile Include="Enum\TypeOrder.cs" />
     <Compile Include="Interfaces\Artefacts\IContentType.cs" />
+    <Compile Include="Interfaces\Artefacts\IDocumentSet.cs" />
     <Compile Include="Interfaces\Artefacts\IListSharePoint.cs" />
     <Compile Include="Interfaces\Artefacts\ILog.cs" />
     <Compile Include="Interfaces\Artefacts\IMasterPage.cs" />

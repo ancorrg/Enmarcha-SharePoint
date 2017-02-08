@@ -38,6 +38,7 @@
     <AssemblyOriginatorKeyFile>Enmarcha.SharePointOnpremises.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.DocumentManagement, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\Microsoft.SharePoint.dll</HintPath>
@@ -63,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Attribute\EnmarchaAttribute.cs" />
     <Compile Include="Entities\Artefacts\ContentType.cs" />
+    <Compile Include="Entities\Artefacts\DocumentSetSharepoint.cs" />
     <Compile Include="Entities\Artefacts\MasterPage.cs" />
     <Compile Include="Entities\Artefacts\Site.cs" />
     <Compile Include="Entities\Artefacts\SiteColumn.cs" />
